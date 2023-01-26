@@ -347,7 +347,7 @@ height: 300px;
     width: 90%;
     margin: 0px auto;
     /* border: 2px solid red; */
-    height: 1500px
+    height: 2088px
 }
 .section-3{
     background-image: url(./Assets/asset\ 22.webp);
@@ -519,6 +519,7 @@ position: relative;
     height: 634px;
     background-color: #14a800;
     border-radius: 8px;
+    position: relative;
     /* border: 1px solid red */
     /* margin: 0 29px 0 0; */
 }
@@ -556,9 +557,339 @@ position: relative;
 .sec-4-div-2-h2{
     margin-left: 28px
 }
-/* .img img{
-    width: 30px;
-    color: white
-} */
+.sec-4-div-img{
+    position: absolute;
+    top: -50px;
+    right: 327px;
+}
 
+/* section-5-styling */
 
+.section-5{
+    width: 100%;
+    display: flex;
+    height: 500px;
+    margin-top: 55px
+    /* border: 1px solid black */
+
+}
+.section-5-img{
+    width: 50%;
+    background-image: url(./Assets/asset\ 18.jpeg);
+    background-size: cover;
+    background-position: center center;
+    height: 683px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px
+    /* border: 1px solid #5e6d55 */
+
+}
+.section-5-content{
+    width: 50%;
+    height: 683px;
+    background-color: #1f57c3;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px
+    /* border: 1px solid #14a800 */
+}
+.section-5-content-para{
+    color: #ffffff;
+    font-size: 24px;
+    margin: 35px 41px 30px
+}
+.section-5-content-h2{
+    color: #ffffff;
+    font-size: 50px;
+    margin-left: 40px
+}
+.section-5-content-another-para{
+    color: #ffffff;
+    font-size: 18px;
+    margin: 30px 45px 120px
+}
+.section-5-bottom-content-parent{
+    /* border: 1px solid black; */
+    width: 100%;
+    display: flex;
+    margin-left: 40px
+    /* justify-content: space-evenly; */
+    /* height: 105px */
+
+}
+.section-5-bottom-content-1{
+    /* border: 1px solid red; */
+    width: 30%;
+    color: #ffffff;
+    font-size: 18px;
+    height: 104px
+
+}
+.section-5-bottom-content-2{
+    /* border: 1px solid greenyellow; */
+    width: 30%;
+    color: #ffffff;
+    font-size: 18px;
+    height: 104px
+    
+}
+.section-5-bottom-content-3{
+    /* border: 1px solid grey; */
+    width: 30%;
+    color: #ffffff;
+    font-size: 18px;
+    height: 104px
+}
+.border hr{
+    width: 80%;
+    margin-left: 40px;
+    margin-bottom: 20px
+}
+.section-5-content-link{
+    background-color: #ffffff;
+    padding: 11px 30px;
+    margin: 20px 20px 10px 35px;
+    width: 32%;
+    height: 40px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.section-5-content-link a{
+    text-decoration: none;
+    color: #1f57c3;
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: bold
+}
+/* section-6-7-8-parent-stayling */
+
+.section-6-7-8-parent{
+    width: 85%;
+    margin: 0px auto;
+    /* height: 1500px; */
+    /* border: 1px solid black; */
+}
+/* section-6*/
+
+.section-6{
+    width: 100%;
+    margin: 85px 0px 0px;
+
+}
+.section-6-heading{
+    font-size: 48px;
+    margin: 0 0 30px;
+    padding: 0 347px 0 0;
+
+}
+.section-6-cards-parent{
+    width: 100%;
+    display: flex;
+    gap: 40px;
+    position: relative;
+}
+.section-6-card1{
+    /* border: 1px solid red; */
+    width: 50%;
+    height: 450px;
+    background-color:#13544e;
+    border-radius: 8px
+
+}
+.section-6-card2{
+    border: 1px solid red;
+    width: 50%;
+    height: 450px;
+    border-radius: 8px;
+    background-color:#bc511b;
+
+}
+.section-6-card1-img{
+    background-image: url(./Assets/NASDAQ.cc98904.svg);
+    background-repeat: no-repeat;
+    width: 36%;
+    height: 56px;
+    margin: 26px 25px 15px
+}
+.section-6-card1-heading{
+    color: #ffffff;
+    font-size: 26px;
+    margin: 0 31px 10px
+}
+.author{
+    color: #d5e0d5;
+    margin-left: 32px;
+}
+.result{
+    color: #d5e0d5;
+    margin-left: 32px;
+    margin-top: 95px
+}
+.result-border{
+    width: 88%;
+    margin-left: 32px;
+    margin-bottom: 17px;
+    margin-top: 12px
+}
+.section-6-flex-parent{
+    display: flex;
+    flex-wrap: wrap;
+    width: 94%;
+    height: 74px;
+    /* border: 1px solid white; */
+    margin: 0px 33px
+    /* margin-right: -15px; */
+    /* margin-left: -15px */
+}
+.flex-1{
+    /* border: 1px solid gray; */
+    width: 41.5%;
+    height: 74px;
+    /* padding: 0 40px 0 15px */
+
+}
+.flex-1-h4{
+    color: #ffffff;
+    font-size: 26px;
+    margin: 0 0 5px
+}
+.fb{
+    color: #d5e0d5;
+    text-transform: capitalize
+}
+.section-6-card2-img{
+    background-image: url(./Assets/Microsoft-lg.c9a3d9c.svg);
+    background-repeat: no-repeat;
+    width: 36%;
+    height: 56px;
+    margin: 26px 25px 15px
+}
+.section-6-arrow{
+    /* border: 1px solid blue; */
+    width: 70px;
+    height: 70px;
+    background-color: #108a00;
+    border-radius: 50%;
+    position: absolute;
+    right: -35px;
+    top:38%;
+    /* cursor: pointer */
+}
+.section-6-arrow img{
+    position: relative;
+    top: 37%;
+    left: 21px
+}
+.section-6-arrow:hover{
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    background-color: #13544e
+}
+/* section-7 */
+
+.section-7{
+    display: flex;
+    align-items:flex-start;
+    flex-direction:column;
+    margin-top: 100px;
+    padding: 32px 30px 32px 32px;
+    height: 202px;
+    border-radius: 8px;
+    background-color: #f2f7f2;
+    position: relative;
+}
+.section-7 h2{
+    font-size: 38px;
+    margin: 0 0 8px
+}
+.section-7 h6{
+    font-size: 18px;
+    margin: 0 0 28px;
+    color: #5e6d55;
+}
+.section-7 a{
+    border: 2px solid #14a800;
+    border-radius: 25px;
+    font-size: 15px;
+    background-color: #ffffff;
+    color: #108a00;
+    margin: 0 20px 30px 0;
+    padding: 10px 35px;
+    text-decoration: none;
+    font-weight: bold;
+    /* cursor: pointer; */
+}
+.section-7 img{
+    width: 166px;
+    height: 130px;
+    margin: -160px 0px 0px;
+    position: absolute;
+    top: 195px;
+    right: 25px;
+}
+
+   /* section-8 */
+
+ .section-8{
+     display: flex;
+     gap:30px;
+     width: 100%;
+     padding-top: 100px;
+     /* border: 1px solid blue; */
+     /* height: 700px */
+ }  
+ .row-1{
+    /* border: 1px solid red; */
+    width: 30%;
+    /* height: 200px */
+
+ }
+ .row-1 ul{
+     padding: 0 15px
+ }
+ .row-1 ul li{
+     font-size: 40px;
+     list-style: none;
+
+ }
+ .top-color{
+     color: #14a800;
+     margin: 0 0 15px
+ }
+ .tren-color{
+     color: #d5e0d5;
+     margin: 0 0 15px
+ }
+ .tren-color:hover{
+     color: #108a00;
+     cursor: pointer
+ }
+ .tren-color sup{
+     font-size: 10px
+ }
+ 
+ .row-2{
+    /* border: 1px solid greenyellow; */
+    width: 30%;
+    /* height: 200px */
+     
+}
+.row-2 ul{
+    padding: 0 15px
+}
+.row-2 ul li{
+    font-size: 24px;
+    color: #5e6d55;
+    margin-bottom: 15px;
+    list-style: none
+}
+.row-2 ul li:hover{
+    color: #14a800;
+    cursor: pointer
+
+}
+   
+   
+   
+   
+   
+   
